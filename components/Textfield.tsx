@@ -6,6 +6,7 @@ const TextField = () => {
   return (
         <TextInput
           style={styles.input}
+          placeholder='you@email.com'
         />
   );
 };

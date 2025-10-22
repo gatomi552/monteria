@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import TextField from "@/components/Textfield";
 
 export default function Index() {
   return (
@@ -9,7 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>Escribe tu email</Text>
+      <TextField></TextField>
     </View>
   );
 }
