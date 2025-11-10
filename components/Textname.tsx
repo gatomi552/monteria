@@ -10,8 +10,7 @@ const nombreSchema = z
 
 const Textname = () => {
 
-    const [Name, setEmail] = useState('');
-
+    const [Name, setName] = useState('');
     const [error, setError] = useState<string | null>(null);
 
     const validateInput = (text: string) => {
@@ -28,7 +27,7 @@ const Textname = () => {
 
     // Función que se ejecuta con cada cambio en el TextInput
     const handleChangeText = (text: string) => {
-        setEmail(text);
+        setName(text);
         // Validación en tiempo real
         
         if (text.length > 0) {
@@ -41,17 +40,19 @@ const Textname = () => {
 
     // Define el estilo del borde dinámicamente
     const inputBorderClass = error ? 'border-red-500' : 'border-gray-500';
-
-    <View>
-        <TextInput
-            // Estilos de NativeWind: altura, borde dinámico, ancho del borde, padding y redondeo
-            className={`h-15 ${inputBorderClass} border px-3 rounded-md text-base`} 
-            placeholder='Pablito'
-            value={Name}
-            onChangeText={handleChangeText}
-            autoCapitalize="none"
-        />
-    </View>
+    return (
+        <View>
+            <TextInput
+                className={`h-15 ${inputBorderClass} border px-3 rounded-md text-base`} 
+                placeholder="Pablito                                                              "
+                value={Name}
+                onChangeText={handleChangeText}
+                keyboardType="default"
+                autoCapitalize="words"
+            />
+            {error && <Text className="text-red-500 mt-1 text-xs">{error}</Text>}
+        </View>
+    );
 };
 
 export default Textname;
