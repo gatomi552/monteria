@@ -1,3 +1,15 @@
+
+
+https://github.com/user-attachments/assets/d5532407-3cbc-4a9f-95b4-6d77140f873e
+
+
+
+https://github.com/user-attachments/assets/464a3699-e6cb-4b43-9f70-7c5b08c1073d
+
+
+
+https://github.com/user-attachments/assets/aa116e74-b20b-46e9-b447-9459e4b1d902
+
 > Edited for use in IDX on 07/09/12
 
 # Welcome to your Expo app 👋
