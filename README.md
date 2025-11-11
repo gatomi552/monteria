@@ -1,7 +1,13 @@
+https://github.com/user-attachments/assets/aa116e74-b20b-46e9-b447-9459e4b1d902
 
 > Edited for use in IDX on 07/09/12
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+> [!IMPORTANT]
+> Leer:
+> Este es mi aplicacion sobre como ocupamos ZOD para los errores y verificaciones al momento de pedir un email o un nombre(implementacion propia), ademas
+> contiene unos cuantass cosas como los useState para mayor facilidad
 
 ## Get started
 
