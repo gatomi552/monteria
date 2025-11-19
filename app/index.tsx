@@ -2,6 +2,7 @@ import { Text, View } from "react-native";
 import "@/global.css"
 import TextField from "@/components/Textfield";
 import Textname from "@/components/Textname";
+import TextContra from "@/components/TextContra";
 
 export default function Index() {
   return (
@@ -10,6 +11,8 @@ export default function Index() {
       <Textname></Textname>
       <Text className="text-xl font-bold text-gray-900 mb-2">Escribe tu email</Text>
       <TextField></TextField>
+      <Text className="text-xl font-bold text-gray-900 mb-2">Escribe tu contraseña</Text>
+      <TextContra></TextContra>
     </View>
   );
 }
